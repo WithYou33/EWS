@@ -6,4 +6,8 @@
     <color name="white">#ffffff</color>
     <color name="colorTextPressed">#035AC9</color>
     <color name="colorInCircle">#567df1</color>
+    <color name="gere_color">#1296db</color>
+    <color name="user_bak">#20FFFAFA</color>
+
+    <color name="user_bak2">#40FFFAFA</color>
 </resources>

@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="200dp"
             android:layout_gravity="center"
-            android:background="@mipmap/button_an" />
+            android:background="@drawable/yuyinbutton_selector" />
 
 
     </LinearLayout>
