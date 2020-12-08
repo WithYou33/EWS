@@ -21,7 +21,7 @@ public class StartCartoon extends AppCompatActivity {
         setContentView(view);
         //渐变展示启动屏
         AlphaAnimation aa = new AlphaAnimation(0.3f,1.0f);
-        aa.setDuration(1000);
+        aa.setDuration(500);
         view.startAnimation(aa);
         aa.setAnimationListener(new Animation.AnimationListener()
         {

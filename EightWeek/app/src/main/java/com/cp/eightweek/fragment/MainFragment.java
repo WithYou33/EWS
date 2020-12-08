@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -22,8 +23,9 @@ public class MainFragment extends Fragment {
     private static final String ARG_PARAM2 = "param2";
 
     private Toolbar toolbar;
-    ImageView m_ico,t_tianqi;
-    TextView m_name,t_xinxi;
+    private ImageView m_ico,t_tianqi;
+    private TextView m_name,t_xinxi;
+    private ImageButton iButton;
 
     private String mParam1;
     private String mParam2;
@@ -48,6 +50,8 @@ public class MainFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
     }
 
     @Override
@@ -55,6 +59,7 @@ public class MainFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_main, null);
+
 
         //点击头像用户名栏
         view.findViewById(R.id.user_geren).setOnClickListener(new View.OnClickListener() {
